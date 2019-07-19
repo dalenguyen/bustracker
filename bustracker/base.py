@@ -12,8 +12,7 @@ class Base(object):
         stopsParams = ''
         for stop in stops:            
             stopsParams += '&stops=' + str(stop['routeTag']) + '|' + str(stop['stopTag'])
-
-        print(stopsParams)
+        
         url = 'http://webservices.nextbus.com/service/publicJSONFeed?command=predictionsForMultiStops&a={agency}&{stops}'.format(
             agency = self.agency,
             stops = stopsParams

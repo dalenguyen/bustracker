@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="bustracker",
-    version="0.0.2",
+    version="0.0.3",
     author="Dale Nguyen",
     author_email="dungnq@itbox4vn.com",
     description="Get bus predictions from NextBus",
