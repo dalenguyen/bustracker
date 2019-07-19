@@ -28,7 +28,7 @@ stops = [
     {'routeTag': 506, 'stopTag': 3292}
 ]
 
-predictions = bus.get_prediction(stops)
+predictions = bus.get_predictions(stops)
 
 print(predictions)
 ```

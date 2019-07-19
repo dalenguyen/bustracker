@@ -20,7 +20,7 @@ class TestStock(TestCase):
             {'routeTag': 83, 'stopTag': 7871}
         ]
 
-        predictions = self.ttc.get_prediction(stops)        
+        predictions = self.ttc.get_predictions(stops)        
         self.assertTrue(isinstance(predictions, dict))
 
 if __name__ == '__main__':
